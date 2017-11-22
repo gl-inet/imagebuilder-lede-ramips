@@ -28,11 +28,9 @@ Now there are some default settings in files folder
 
 Here is some examples to build a working firmware for your router.
 
-For example, if you want to build a clean firmware with luci, do the following/
-
-For GL-MT300N-V2
+For GL-MT300N-V2, the following command will generate a clean firmware with luci and wifi is enabled by default. The ssid is `LEDE` and password is `goodlife`.
 ```
-make image PROFILE=gl-mt300n-v2 PACKAGES="kmod-mt7628 uci2dat mtk-iwinfo luci" FILES=files/files-clean-mt/
+make image PROFILE=gl-mt300n-v2 PACKAGES="kmod-mt7628 uci2dat mtk-iwinfo luci" FILES=files/files-clean-mt7628/
 ```
 
 If you want to build a Tor firmware for MT300N-V2, do this following:
