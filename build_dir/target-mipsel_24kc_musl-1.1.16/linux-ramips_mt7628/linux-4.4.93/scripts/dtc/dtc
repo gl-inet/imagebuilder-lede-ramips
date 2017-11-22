@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dir="$(dirname "$0")"
+exec "$dir/../../../../../../staging_dir/host/lib/ld-linux-x86-64.so.2" --library-path "$dir/../../../../../../staging_dir/host/lib/" "$dir/../../../../../../staging_dir/host/lib/runas" "$dir/.dtc.bin" "$0" "$@"
