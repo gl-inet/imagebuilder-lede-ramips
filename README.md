@@ -1,6 +1,6 @@
-# Image builder of GL-MT30N-V2
+# Image builder of GL-MT300N-V2
 
-This is the image builder for AR300M Nor, AR150, GL-MiFi and GL-6416. You can use this image builder to build a firmware quickly.
+This is the image builder for GL-MT300N-V2. You can use this image builder to build a firmware quickly.
 
 ## System Requirement
 1. x86_64 platform
